@@ -1,0 +1,8 @@
+[0324/211906.167:ERROR:filesystem_win.cc(129)] GetFileAttributes c:\Users\user\AppData\Roaming\Code\User\workspaceStorage\a0809c90e0db26a98f0f3712e23d1559\ms-vscode.js-debug\.profile\Crashpad\attachments\6184fe71-6d0e-468a-8e6f-d0fdb52762ad: Системе не удается найти указанный путь. (0x3)
+[0325/181909.684:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0325/184738.807:ERROR:filesystem_win.cc(129)] GetFileAttributes c:\Users\user\AppData\Roaming\Code\User\workspaceStorage\a0809c90e0db26a98f0f3712e23d1559\ms-vscode.js-debug\.profile\Crashpad\attachments\4568ab60-3c09-420b-ad1c-abc866729ab1: Системе не удается найти указанный путь. (0x3)
+[0325/191841.244:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0326/122504.014:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0326/123613.945:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0326/154452.193:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0326/165235.920:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

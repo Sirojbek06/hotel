@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#navbar{
+    background-color: rgb(8, 6, 6);
+    color: white;
+    
+} 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbar h1{
+    padding: 20px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 25px;
+    
+}
+#navbar ul li a:hover   {
+    background-color: #444;
+    color: rgb(223, 163, 73);
+}   
+#navbar ul li a.curyer {
+    background-color: #444;
+    color: rgb(223, 163, 73);
+}   
+
+.container{
+    max-width: 1200px;
+    
+} 
+.container1{
+    max-width: 1200px;
+    margin: auto;
+}
+.container2{
+    max-width: 1200px;
+    margin: auto;
+}
+.text-primary{
+    color: rgb(223, 163, 73);
+}
+.text-prim{
+    color: rgb(231, 129, 12);
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #444;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(223, 163, 73) ;
+    color: #333;
+
+}
+.btn-light{
+    background-color:#f4f4f4f4 ;
+    color: #333;
+
+}
+.btn-dark{
+    background-color: #333;
+    color: #ffffff;
+}
+.bg-dark{
+    background-color: #333;
+    color: #ffffff; 
+}
+.bg-light{
+    background-color:#f4f4f4f4 ;
+    color: #333;
+}
+.bg-primary{
+    background-color:rgb(223, 163, 73) ;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#showcase{
+    background-image: url("5451_ho_00_p_1024x768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+#showcase .showcase1{
+    text-align: center;
+    padding: auto;
+    color: #ffffff;
+}
+#showcase h1{
+    font-size: 50px;
+}
+#showcase p{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+#home-info{
+    height: 400px;
+    display: flex;
+
+}
+#home-info .info-img{
+    
+    width: 50%;
+    height: 100%;
+    background: url("hotel-logo-template-background-58362995.jpg") center center/cover ;
+    
+    
+    
+}
+#home-info .info-content{
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+#box{
+    
+    text-align: center;
+    width: 33.333333333333333333333333333333333333%;
+    padding: 50px;
+    
+}
+
+
+
+#end{
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: #ffffff;
+}
+
+#about-info .info-right{
+    
+    width:100%;
+    min-height: 50%;
+   
+    
+} 
+#about-info .info-right img{
+    
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+    
+} 
+#about-info .info-left{
+    
+    width: 100%;
+    min-height: 50%;
+    
+} 
+#about-info{
+    padding: 30px;
+}
+/*testimonials-section*/
+#testimonials{
+    height: 600px;
+    padding: 200px 30px;
+    background-image: url("cheap-garden-ideas-house-beautiful-uk-1589461533.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonials h2{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 35px;
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom:40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+}
+ 
+#contact-form {
+    margin-bottom: 20px;
+    margin: 30px;
+}
+#contact-form label{
+    display: block;
+    padding: 10px;
+}
+#contact-form input{
+    width: 100%;
+    padding: 10px;
+
+}
+#contact-form textarea{
+    width: 100%;
+    padding: 30px;
+}
+#contact-form h1{
+    font-size: 35px;
+}
+#end1{
+    margin-top: 435px;;
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: #ffffff;
+}
+
+@media(max-width:1000px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-left{
+        width: 100%;
+        min-height: 100%;
+    }
+}
+@media(min-width:930px){
+    #box{
+        width: 33%;
+        display: inline-block;
+        
+    }
+}
+@media(max-width:930px){
+    #box{
+        width:100% ;
+        
+    }
+}
+
+@media(max-width:770px){
+    #home-info .info-content{
+        width: 100%;
+    }
+    #home-info .info-img{
+        width: 100%;
+    }
+   
+}
+@media(max-width:690px){
+    #home-info{
+        width: 100%;
+        height: 400px;
+    }
+    #home-info .info-content p{
+        padding: 0px;
+    }
+    .info-content a{
+        padding: 10px;
+        text-align: center;
+
+    }
+}
+@media(max-width:650px){
+    #home-info{
+        display: flex;
+        flex-direction: column;  
+        height: 700px;
+  }
+}
+@media(max-width:565px){
+    #testimonials{
+        height: 700px;
+    }
+}
+@media(max-width:440px){
+    .showcase1 {
+        padding: 50px;
+    }
+    #home-info{
+        width: 100%;
+        height: 650px;
+    }
+    #testimonials{
+        height: 800px;
+    }
+
+}
+@media(min-width:440px){
+    .showcase1 {
+        padding:100px;
+    }
+    
+
+}
+@media(max-width:375px){
+    #navbar h1{
+        padding: 10px;
+    }
+    #navbar ul li a{
+        padding: 15px;
+    }
+}
+@media(max-width:342px){
+    #testimonials{
+        height: 850px;
+    }
+}
+@media(max-width:325px){
+    #showcase{
+        height: 650px;
+    }
+}
+ 
